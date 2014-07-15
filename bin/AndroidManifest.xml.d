@@ -1,2 +1,2 @@
-/home/marbar/stuff/tagsurf/android/tagSurf/bin/AndroidManifest.xml : \
-/home/marbar/stuff/tagsurf/android/tagSurf/AndroidManifest.xml \
+/home/marbar/stuff/tagsurf/Android/bin/AndroidManifest.xml : \
+/home/marbar/stuff/tagsurf/Android/AndroidManifest.xml \
