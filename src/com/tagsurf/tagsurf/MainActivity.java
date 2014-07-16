@@ -20,6 +20,6 @@ public class MainActivity extends Activity
 		myWebView.setWebViewClient(new WebViewClient());
 		WebSettings webSettings = myWebView.getSettings();
 		webSettings.setJavaScriptEnabled(true);
-		myWebView.loadUrl("http://beta.tagsurf.co");
+		myWebView.loadUrl("http://staging.tagsurf.co");
 	}
 }
