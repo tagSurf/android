@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.webkit.WebSettings;
+import android.view.View;
 import android.view.Window;
 
 public class MainActivity extends Activity
@@ -16,10 +17,11 @@ public class MainActivity extends Activity
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.main);
 
-		WebView myWebView = (WebView) findViewById(R.id.webview);
-		myWebView.setWebViewClient(new WebViewClient());
-		WebSettings webSettings = myWebView.getSettings();
-		webSettings.setJavaScriptEnabled(true);
-		myWebView.loadUrl("http://staging.tagsurf.co");
-	}
+        WebView myWebView = (WebView) findViewById(R.id.webview);
+        myWebView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
+        myWebView.setWebViewClient(new WebViewClient());
+        WebSettings webSettings = myWebView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        myWebView.loadUrl("http://staging.tagsurf.co");
+    }
 }
