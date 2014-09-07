@@ -24,7 +24,7 @@
 
     <access origin="*"/>
 
-    <content src="http://beta.tagsurf.co" />
+    <content src="http://beta.tagsurf.co/share/trending/0" />
 
     <preference name="loglevel" value="DEBUG" />
     <!--
