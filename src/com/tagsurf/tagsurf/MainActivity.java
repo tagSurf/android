@@ -22,6 +22,8 @@ public class MainActivity extends Activity
         myWebView.setWebViewClient(new WebViewClient());
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        String ua = webSettings.getUserAgentString();
+        webSettings.setUserAgentString(ua + " AndroidWebView");
         myWebView.loadUrl("http://staging.tagsurf.co");
     }
 }
