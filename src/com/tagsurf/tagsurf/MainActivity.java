@@ -18,12 +18,11 @@ public class MainActivity extends Activity
         setContentView(R.layout.main);
 
         WebView myWebView = (WebView) findViewById(R.id.webview);
-        myWebView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         myWebView.setWebViewClient(new WebViewClient());
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         String ua = webSettings.getUserAgentString();
         webSettings.setUserAgentString(ua + " AndroidWebView");
-        myWebView.loadUrl("http://staging.tagsurf.co");
+        myWebView.loadUrl("http://beta.tagsurf.co");
     }
 }
