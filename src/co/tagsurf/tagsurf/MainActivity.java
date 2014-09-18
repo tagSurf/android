@@ -1,4 +1,6 @@
-package com.tagsurf.tagsurf;
+package co.tagsurf.tagsurf;
+import co.tagsurf.tagsurf.R;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
