@@ -25,6 +25,6 @@ public class MainActivity extends Activity
         webSettings.setJavaScriptEnabled(true);
         String ua = webSettings.getUserAgentString();
         webSettings.setUserAgentString(ua + " AndroidWebView");
-        myWebView.loadUrl("http://beta.tagsurf.co");
+        myWebView.loadUrl("http://beta.tagsurf.co/share/trending/0");
     }
 }
