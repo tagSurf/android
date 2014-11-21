@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/placey/Dev/tagsurf_native/android_studio/android/app/build/intermediates/pre-dexed/debug/gson-2.2.4-97e37284b076274e576f79acde67c94341f2b333.jar"
+        jar="/Users/placey/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
+    <item
+        dex="/Users/placey/Dev/tagsurf_native/android_studio/android/app/build/intermediates/pre-dexed/debug/json-path-0.9.1-b7e99823d7418b4afd112e440d88ee33f6e472e0.jar"
+        jar="/Users/placey/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/0.9.1/1a198cf545b2656656fecda5add3ba436e715185/json-path-0.9.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a198cf545b2656656fecda5add3ba436e715185"/>
+    <item
+        dex="/Users/placey/Dev/tagsurf_native/android_studio/android/app/build/intermediates/pre-dexed/debug/joda-time-2.3-20849ed971708a8242d5e6ef2923fe4e0ed7fa49.jar"
+        jar="/Users/placey/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.3/56498efd17752898cfcc3868c1b6211a07b12b8f/joda-time-2.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f"/>
+    <item
+        dex="/Users/placey/Dev/tagsurf_native/android_studio/android/app/build/intermediates/pre-dexed/debug/sdk-android-0.1-SNAPSHOT-eb5894def30ce25c4935ee1fc9f1a21f616fa7d4.jar"
+        jar="/Users/placey/.m2/repository/com/urx/sdk-android/0.1-SNAPSHOT/sdk-android-0.1-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="642ef01548e7f2d21a025b217a95074f4f0d3b84"/>
+    <item
+        dex="/Users/placey/Dev/tagsurf_native/android_studio/android/app/build/intermediates/pre-dexed/debug/sdk-core-0.1-SNAPSHOT-7933d694a50130d481f5486818860f6eafbcd0c9.jar"
+        jar="/Users/placey/.m2/repository/com/urx/sdk-core/0.1-SNAPSHOT/sdk-core-0.1-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4bc8a4bb3080431157b5eba3f14c5e92ae84ac8b"/>
+    <item
+        dex="/Users/placey/Dev/tagsurf_native/android_studio/android/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.5-202c018cab6fd594161e970da428c8556905cf3e.jar"
+        jar="/Users/placey/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.5/77bf7cacf9cefe19dc105e5425d2eb1bb5285881/android-async-http-1.4.5.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881"/>
+    <item
+        dex="/Users/placey/Dev/tagsurf_native/android_studio/android/app/build/intermediates/pre-dexed/debug/json-smart-1.2-05831a8f1a75933b85071c01605dde63218da030.jar"
+        jar="/Users/placey/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/1.2/199828b0a7be9626c6eaecb005baddd24bfddc1f/json-smart-1.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="199828b0a7be9626c6eaecb005baddd24bfddc1f"/>
+    <item
+        dex="/Users/placey/Dev/tagsurf_native/android_studio/android/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.5-919edc856d25dcf11a5dd677e060470d10be62b2.jar"
+        jar="/Users/placey/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93"/>
+    <item
+        dex="/Users/placey/Dev/tagsurf_native/android_studio/android/app/build/intermediates/pre-dexed/debug/guava-16.0-1222c066b0c2e54f63cc3711b504f91419d7a5ad.jar"
+        jar="/Users/placey/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/16.0/aca09d2e5e8416bf91550e72281958e35460be52/guava-16.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="aca09d2e5e8416bf91550e72281958e35460be52"/>
+
+</pre-dex-items>

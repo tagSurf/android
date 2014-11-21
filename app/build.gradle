@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.urx'
+android {
+    compileSdkVersion 19
+    buildToolsVersion "20.0.0"
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+
+    defaultConfig {
+        applicationId "co.tagsurf.tagsurf"
+        minSdkVersion 17
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    dependencies {
+        compile 'com.urx:sdk-android:0.1-SNAPSHOT'
+    }
+}
