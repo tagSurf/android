@@ -40,11 +40,12 @@ public class MainActivity extends Activity
                 else if (url.contains("urx.io")) {
                     String uri = url.replaceAll("//", "/").replace("https:/urx.io/", "");
                     UriResolve resolution = new UriResolve(uri);
-                    Log.i("resolution", resolution.toString());
+                    Log.i("deep resolution", url);
                     client.resolve(resolution, AndroidResolver.installedApps(MainActivity.this));
                 }
                 else {
                     final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(url));
+                    Log.i("web resolution", url);
                     startActivity(intent);
                 }
                 return true;
