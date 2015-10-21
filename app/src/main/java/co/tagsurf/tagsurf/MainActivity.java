@@ -28,7 +28,7 @@ public class MainActivity extends Activity
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.main);
 
-        ClientConfig config = new ClientConfig("Ib1aSpMnJ/3O34aMfEJA1vNz3YxdYjV/IFkGmBklg3dPCUzzEmm6ljTfj/DI=|lnycFsQzlChVDnzyQQqBY/wwPstOrMq5");
+        ClientConfig config = new ClientConfig();
         final AndroidClient client = new AndroidClient(config);
 
         myWebView = (WebView) findViewById(R.id.webview);
